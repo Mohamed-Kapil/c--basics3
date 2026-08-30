@@ -39,9 +39,9 @@
 
             #region Question Three
 
-            int pages = 464;
+            int page = 464;
 
-            string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+            string sizeLabel = page > 300 ? "Long Book" : "Short Book";
 
             Console.WriteLine(sizeLabel);
 
