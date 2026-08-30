@@ -56,6 +56,17 @@
                 Console.WriteLine((i + 1) + ". " + books[i]);
             }
             #endregion
+
+            #region Question Five
+            int ii= 0;
+
+            while (ii < books.Length)
+            {
+                Console.WriteLine((ii + 1) + ". " + books[ii]);
+                ii++;
+            }
+            #endregion
+
         }
     }
 }
