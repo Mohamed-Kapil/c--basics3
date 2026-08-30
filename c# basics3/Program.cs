@@ -58,13 +58,26 @@
             #endregion
 
             #region Question Five
-            int ii= 0;
+            int ii = 0;
 
             while (ii < books.Length)
             {
-                Console.WriteLine((ii + 1) + ". " + books[ii]);
+                Console.WriteLine(books[ii]);
                 ii++;
             }
+            #endregion
+
+            #region Question Six
+
+            int iII = 1;
+
+            do
+            {
+                Console.WriteLine("Checking book...");
+                iII++;
+            }
+            while (iII <= 3);
+
             #endregion
 
         }
