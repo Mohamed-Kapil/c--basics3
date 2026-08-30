@@ -80,6 +80,13 @@
 
             #endregion
 
+            #region Question Seven
+            
+            foreach (string book in books)
+            {
+                Console.WriteLine(book);
+            }
+            #endregion
         }
     }
 }
