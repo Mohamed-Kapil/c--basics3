@@ -100,6 +100,34 @@
                 Console.WriteLine(book);
             }
             #endregion
+
+            #region Question Nine
+
+            foreach (string book in books)
+            {
+                if (book == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+
+                Console.WriteLine(book);
+            }
+            #endregion
+
+            #region Question Ten
+            
+            void PrintFirstBook()
+            {
+                if (books.Length == 0)
+                {
+                    return;
+                }
+
+                Console.WriteLine(books[0]);
+            }
+            PrintFirstBook();
+
+            #endregion
         }
     }
 }
